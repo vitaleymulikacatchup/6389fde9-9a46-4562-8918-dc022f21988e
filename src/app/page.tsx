@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -10,7 +10,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqBase from '@/components/sections/faq/FaqBase';
 import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Sparkles, ChefHat, Heart, Wine, Candle, Users, Utensils } from "lucide-react";
+import { Sparkles, ChefHat, Heart, Wine, Users, Utensils, Flame } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -117,7 +117,7 @@ export default function LandingPage() {
           features={[
             {
               title: "Intimate Ambiance",
-              icon: Candle
+              icon: Flame
             },
             {
               title: "Private Events",
