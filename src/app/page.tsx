@@ -151,7 +151,7 @@ export default function LandingPage() {
               role: "Food Critic",
               company: "Culinary Times",
               rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1765535486157-j0gwrloy.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1765540442726-75s4xi66.jpg",
               imageAlt: "Sarah Mitchell"
             },
             {
